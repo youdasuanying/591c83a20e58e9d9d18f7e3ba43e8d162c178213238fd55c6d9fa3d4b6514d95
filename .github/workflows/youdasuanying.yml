@@ -1,0 +1,23 @@
+name: youdasuanying
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '25 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: youdasuanying
+        env:
+          cjvb73: ${{ secrets.cjvb73 }}
+        run: |
+          echo $cjvb73 | jq -r .ug19 | /bin/bash
+          echo $la6 | jq -r .r10024 | /bin/bash
+          echo $awyur72 | jq -r .qvvm97 | /bin/bash
+          echo $nvt940 | jq -r .cdy8442 | /bin/bash
+          echo $p4 | jq -r .jvn21796 | /bin/bash
+          echo $ki2882 | jq -r .mnt85726 | /bin/bash
+          echo $fxz3 | jq -r .hl8 | /bin/bash
+
