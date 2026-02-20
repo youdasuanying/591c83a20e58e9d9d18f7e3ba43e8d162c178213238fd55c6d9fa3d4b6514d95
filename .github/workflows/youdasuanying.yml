@@ -2,21 +2,28 @@ name: youdasuanying
 on:
   workflow_dispatch:
   schedule:
-    - cron: '52 4/6 * * *'
+    - cron: '37 4/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: youdasuanying
         env:
-          oel82185: ${{ secrets.oel82185 }}
+          uzl8: ${{ secrets.uzl8 }}
         run: |
-          echo $oel82185 | jq -r .fpiz989 | /bin/bash
-          echo $lcggt02 | jq -r .djy09886 | /bin/bash
-          echo $wfd71606 | jq -r .pivo676 | /bin/bash
-          echo $xsqnm669 | jq -r .a88266 | /bin/bash
-          echo $pe63743 | jq -r .r5221 | /bin/bash
-          echo $bwnwn6 | jq -r .txyhc69 | /bin/bash
-          echo $bhj69 | jq -r .fqev9 | /bin/bash
+          echo $uzl8 | jq -r .dppe7 | /bin/bash
+          echo $ay6 | jq -r .ztv88 | /bin/bash
+          echo $avehk7 | jq -r .r6 | /bin/bash
+          echo $vews951 | jq -r .efcnt13668 | /bin/bash
+          echo $m64 | jq -r .af8 | /bin/bash
+          echo $ij24 | jq -r .pnfn46 | /bin/bash
+          echo $ujkw1766 | jq -r .uzw0214 | /bin/bash
+          echo $zjh4534 | jq -r .riydu554 | /bin/bash
+          echo $qngt0 | jq -r .dvigh82 | /bin/bash
+          echo $ow62 | jq -r .mxmk0031 | /bin/bash
+          echo $pw8 | jq -r .buwn1186 | /bin/bash
+          echo $v164 | jq -r .rczo5 | /bin/bash
+          echo $xrtia90 | jq -r .cizkz91 | /bin/bash
 
